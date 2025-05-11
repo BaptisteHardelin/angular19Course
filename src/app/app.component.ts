@@ -9,6 +9,8 @@ import { TestComponent } from './test/test.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Greetings';
-  msg = 'Welcome to Angular 19!'
+
+  a = 10;
+  b = 5;
+  ans = this.a + this.b
 }
