@@ -9,7 +9,7 @@ import { TestComponent } from './test/test.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  onKeyPress() {
-    console.log('keypress event is triggered');
+  onKeyDown() {
+    console.log('keydown event is triggered');
   }
 }
