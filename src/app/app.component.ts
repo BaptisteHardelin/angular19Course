@@ -11,4 +11,5 @@ import { TestComponent } from './test/test.component';
 export class AppComponent {
   inputValue: string = 'Hello';
   isDisabled: boolean = false;
+  imgSrc = '/assets/angular.jpg';
 }
