@@ -9,7 +9,7 @@ import { TestComponent } from './test/test.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  inputValue: string = 'Hello';
-  isDisabled: boolean = false;
-  imgSrc = '/assets/angular.jpg';
+  display(msg: string) {
+    alert(msg);
+  }
 }
