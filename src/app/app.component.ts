@@ -9,9 +9,7 @@ import { TestComponent } from './test/test.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  counter: number = 0;
-
-  incr() {
-    this.counter++;
+  onKeyPress() {
+    console.log('keypress event is triggered');
   }
 }
