@@ -1,1 +1,8 @@
-<button type="submit" (click)="display('Hello there')">click me</button>
+<div class="container">
+  <h1>Counter Example</h1>
+  <div class="btn-container">
+    <button (click)="counter('decr')">--</button>
+    <p>{{ count }}</p>
+    <button (click)="counter('incr')">++</button>
+  </div>
+</div>
