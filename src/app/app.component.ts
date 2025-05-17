@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  onSelect() {
-    console.log('select event is triggered');
+  onKeyPress(e: any) {
+    console.log(e);
   }
 }
